@@ -124,7 +124,7 @@ public class flipkartFunctions
 		driver.findElement(By.xpath("//input[@class='_3704LK']")).sendKeys("apple watches");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
-		WebElement chkbox = driver.findElement(By.xpath("//div/section[7]/div[2]/div/div[1]/div/label/div[1]")); 
+		WebElement chkbox = driver.findElement(By.xpath("//section[6]/div[2]/div/div[1]/div/label/div[2]")); 
 		
 		if(!chkbox.isSelected())
 		{
